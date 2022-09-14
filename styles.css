@@ -1,0 +1,58 @@
+.filtericonactivatecontent .activation-toggle-button {
+    width: 60px;
+    appearance: none;
+    border: 1px solid #999;
+    height: 30px;
+    border-radius: 15px;
+    padding: 0;
+    margin-right: 10px;
+}
+.filtericonactivatecontent .activation-toggle-pill {
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    display: block;
+    background: #999;
+    position: relative;
+    left: 1px;
+    top: 0;
+    margin: 0;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.filtericonactivatecontent.content-activated .card-header,
+.filtericonactivatecontent.content-activated .card-footer,
+.filtericonactivatecontent.content-activated .external-platform-icon,
+.filtericonactivatecontent.content-activated .externalcontent-info {
+    display: none;
+}
+
+.filtericonactivatecontent.content-activated .activation-toggle-pill {
+    margin-left: 30px;
+}
+
+.filtericonactivatecontent .activation-toggler {
+    margin: 20px 0;
+}
+
+.filtericonactivatecontent {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.filtericonactivatecontent .card-footer {
+    font-size: 0.8em;
+}
+.filtericonactivatecontent .external-platform-icon {
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin: 20px 20px 0 20px;
+}
+.filtericonactivatecontent .external-platform-icon img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#page-site-index.notloggedin section[data-region="blocks-center"] section .filtericonactivatecontent .card-body {
+    padding: 1.25rem !important;
+}

@@ -1,0 +1,24 @@
+<div class="card filtericonactivatecontent" id="{{contentid}}" {{{style}}}>
+    <div class="card-header bold">
+        {{headline}}
+    </div>
+    <div class="card-body">
+        <div class="external-platform-icon">{{{icon}}}</div>
+        <div class="externalcontent-info">
+        {{infotext}}
+        </div>
+        <div class="externalcontent-container"></div>
+        <div class="activation-toggler">
+            <button class="activation-toggle-button inactive" data-id="{{contentid}}">
+                <div class="activation-toggle-pill">&nbsp;</div>
+            </button>
+        </div>
+        <template>
+            {{{content}}}
+        </template>
+    </div>
+
+    <div class="card-footer">
+        {{footer}}
+    </div>
+</div>
